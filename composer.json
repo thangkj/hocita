@@ -5,6 +5,7 @@
             "name": "hocita"
         }
     ],
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-0": {
