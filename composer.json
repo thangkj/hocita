@@ -1,0 +1,14 @@
+{
+    "name": "yii/hocita",
+    "authors": [
+        {
+            "name": "hocita"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Hoci": "src/"
+        }
+    }
+}
