@@ -1,16 +1,26 @@
 {
     "name": "yii/hocita",
+    "description": "Demo make an extension yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","hocita"],
+    "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "hocita"
+            "name": "hocita",
+            "email": "thangtk2@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require": {},
+    "require": {
+    },
     "autoload": {
         "psr-0": {
             "Hoci": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
